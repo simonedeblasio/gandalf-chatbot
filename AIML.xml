@@ -1,0 +1,44 @@
+<aiml version="1.0">
+
+<category>
+    <pattern> HELLO </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>Hello</li>
+            <li>Hola</li>
+            <li>Yo</li>
+            <li>How you doing</li>
+            <li>Hello <get name = "username"/></li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>MY NAME IS * AND I AM *</pattern>
+    <template>
+    Hello <set name = "username"> <star index="1"/> </set> you are 
+    <star index="2"/>
+    </template>
+</category>
+
+
+<category>
+    <pattern>I DONT HAVE *</pattern>
+    <template>
+        Go buy <star/> then :)
+    </template>
+</category>
+
+
+<category>
+    <pattern> HI </pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+
+
+
+</aiml>
