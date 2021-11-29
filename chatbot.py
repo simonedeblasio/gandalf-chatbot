@@ -1,6 +1,7 @@
 #Check that aiml for python is installed through pip
 try:
     import aiml
+
 except ModuleNotFoundError:
     print("ERROR: AIML interpreter not installed")
     print("Install by typing:") 
@@ -9,6 +10,8 @@ except ModuleNotFoundError:
 
 #Import sys so that we can read filename from the commandline
 import sys
+
+
 
 if __name__ == '__main__':
     #Check that a filename is specified
@@ -31,18 +34,24 @@ if __name__ == '__main__':
     k = aiml.Kernel()
     #Have kernel read from file
     k.learn(filename)
-    
     #Run the actuall chatbot
     done = False
-    print("Lets make a pizza!")
-    print("What part do you want to start with?")
-    print("Dough or sauce?")
+    friend = False
+    while not friend:
+        print("Oh, it's quite simple. If you are a friend, you speak the password, and the doors will open.")
+        pattern = input("> ")
+        if pattern.lower() in ['melon', 'mellon']:
+            print("Good to see you, 111 years old! Who would believe it? You haven't aged a day.")
+            friend = True
+
+    while not done and friend:
 
 
-    print("To quit enter 'q'")
-    while not done:
         #Store pattern
         pattern = input("> ")
+
+        # disable the alarm after success
+
         #Check if user wants to quit
         if pattern.lower() in ['q', 'quit']:
             done = True
