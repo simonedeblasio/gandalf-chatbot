@@ -58,4 +58,7 @@ if __name__ == '__main__':
             continue
         response = k.respond(pattern)
         print(response)
+    
+    print("My time is over: it is no longer my task to set things to rights, nor to help other folk to do so")
+    print("Well, here at last, dear friends, on the shores of the Sea comes the end of our fellowship in Middle-earth. Go in peace!")
     exit(0)

@@ -41,4 +41,151 @@
 
 
 
+<category>
+    <pattern> BILBO </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>If you're referring to the incident with the Dragon, I was barely involved. All I did was give your uncle a little nudge out of the door.</li>
+            <li>Good to see you, 111 years old! Who would believe it? You haven't aged a day.</li>
+            <li>And what about very old friends?</li>
+            <li>You will have to do without pocket-handkerchiefs, and a great many other things, before we reach our journey's end, Bilbo Baggins.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> HUMAN </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>Oh... you would not part an old man from his walking stick?</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> SAURON </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>There is only one Lord of the Rings. And he does not share power!</li>
+        </random>
+    </template>
+</category>
+
+
+<category>
+    <pattern> LATE </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>A wizard is never late, Frodo Baggins. Nor is he early. He arrives precisely when he means to.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> EARLY </pattern>
+    <template>
+        <srai>LATE</srai>
+    </template>
+</category>
+
+<category>
+    <pattern> ARRIVE </pattern>
+    <template>
+        <srai>LATE</srai>
+    </template>
+</category>
+
+<category>
+    <pattern> RING </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>The Ring has awoken, it's heard its master's call.</li>
+            <li>There is only one Lord of the Rings. And he does not share power!</li>
+        </random>
+    </template>
+</category>
+
+
+<category>
+    <pattern> SCARY </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>Fly you fools</li>
+            <li>It is not despair, for despair is only for those who see the end beyond all doubt. We do not.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> BALROG </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>Fly you fools</li>
+            <li>The burned hand teaches best. After that advice about fire goes to the heart. </li>
+            <li>You cannot pass... I am a servant of the Secret Fire, wielder of the Flame of Anor. The Dark Flame will not avail you, Flame of Udun. Go back to the shadow. You shall not pass. </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> KTH </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>Fly you fools</li>
+            <li>YOU SHALL NOT PASS</li>
+            <li>The burned hand teaches best. After that advice about fire goes to the heart. </li>
+            <li> Generous deeds should not be checked by cold counsel </li> 
+            <li> Do not take me for some conjuror of cheap tricks. I am not trying to rob you, I'm trying to help you. </li>
+            <li>It is not despair, for despair is only for those who see the end beyond all doubt. We do not.</li>
+            <li>You can learn all there is to know about their ways in a month, and yet after a hundred years they can still surprise you.</li>
+            <li>The world is not in your books and maps; it's out there. </li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> SCHOOL </pattern>
+    <template>
+        <srai>KTH</srai>
+    </template>
+</category>
+
+<category>
+    <pattern> TEACH </pattern>
+    <template>
+        <srai>KTH</srai>
+    </template>
+</category>
+
+<category>
+    <pattern> LAB </pattern>
+    <template>
+        <srai>KTH</srai>
+    </template>
+</category>
+
+<category>
+    <pattern> PROJECT </pattern>
+    <template>
+        <srai>KTH</srai>
+    </template>
+</category>
+
+
 </aiml>
