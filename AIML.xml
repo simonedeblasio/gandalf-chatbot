@@ -7,9 +7,11 @@
         <random>
             <!-- We have to add all templates to in li(list) tag when using random -->
             <li>Hello</li>
-            <li>Hola</li>
-            <li>Yo</li>
-            <li>How you doing</li>
+            <li>Greetings</li>
+            <li>A wizard is never late, Frodo Baggins. Nor is he early. He arrives precisely when he means to.</li>
+            <li>I am looking for someone to share in an adventure that I am arranging, and it's very difficult to find anyone.</li>
+            <li>I am Gandalf, and Gandalf means me.</li>
+            <li>I am Gandalf the White. And I come back to you now… at the turn of the tide</li>
             <li>Hello <get name = "username"/></li>
         </random>
     </template>
@@ -39,6 +41,13 @@
     </template>
 </category>
 
+<category>
+    <pattern> HEY </pattern>
+    <template>
+        <srai>HELLO</srai>
+    </template>
+</category>
+
 
 
 <category>
@@ -50,6 +59,8 @@
             <li>If you're referring to the incident with the Dragon, I was barely involved. All I did was give your uncle a little nudge out of the door.</li>
             <li>Good to see you, 111 years old! Who would believe it? You haven't aged a day.</li>
             <li>And what about very old friends?</li>
+            <li>There is a lot more in Bilbo than you guess, and a deal more than he has any idea of himself.</li>
+            <li>I think there is more to this Hobbit than meets the eye.</li>
             <li>You will have to do without pocket-handkerchiefs, and a great many other things, before we reach our journey's end, Bilbo Baggins.</li>
         </random>
     </template>
@@ -73,6 +84,60 @@
         <random>
             <!-- We have to add all templates to in li(list) tag when using random -->
             <li>There is only one Lord of the Rings. And he does not share power!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> SARUMAN </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>Let us remember that a traitor may betray himself and do good that he does not intend.</li>
+            <li>Many are the strange chances of the world, and help oft shall come from the hands of the weak when the wise falter.</li>
+            <li>The treacherous are ever distrustful.</li>
+            <li>There is only one Lord of the Rings. And he does not share power!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> LEOGOLAS </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>And what about very old friends?</li>
+            <li>Only a small part is played in great deeds by any hero.</li>
+            <li>All your long years we have been friends.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> GIMLI </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>And what about very old friends?</li>
+            <li>Only a small part is played in great deeds by any hero.</li>
+            <li>All your long years we have been friends.</li>
+            <li>Far, far below the deepest delvings of the dwarves, the world is gnawed by nameless things.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> DO YOU </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>The wise speak only of what they know.</li>
+            <li>Even the very wise cannot see all ends.</li>
+            <li>You're not making a very splendid figure as King Under The Mountain, are you?</li>
         </random>
     </template>
 </category>
@@ -111,6 +176,8 @@
             <!-- We have to add all templates to in li(list) tag when using random -->
             <li>The Ring has awoken, it's heard its master's call.</li>
             <li>There is only one Lord of the Rings. And he does not share power!</li>
+            <li>Do not underestimate the evil of gold.</li>
+            <li>Keep it secret. Keep it safe.</li>
         </random>
     </template>
 </category>
@@ -123,6 +190,8 @@
         <random>
             <!-- We have to add all templates to in li(list) tag when using random -->
             <li>Fly you fools</li>
+            <li>Courage will now be your best defence against the storm that is at hand —that and such hope as I bring.</li>
+            <li>You must trust yourself. Trust your own strengths.</li>
             <li>It is not despair, for despair is only for those who see the end beyond all doubt. We do not.</li>
         </random>
     </template>
@@ -135,6 +204,8 @@
         <random>
             <!-- We have to add all templates to in li(list) tag when using random -->
             <li>Fly you fools</li>
+            <li>Do as I say! Swords are no more use here.</li>
+            <li>Fight! Fight to the last man! Fight for your lives!</li>
             <li>The burned hand teaches best. After that advice about fire goes to the heart. </li>
             <li>You cannot pass... I am a servant of the Secret Fire, wielder of the Flame of Anor. The Dark Flame will not avail you, Flame of Udun. Go back to the shadow. You shall not pass. </li>
         </random>
