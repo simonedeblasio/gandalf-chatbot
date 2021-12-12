@@ -78,12 +78,37 @@
 </category>
 
 <category>
+    <pattern> HOBBIT </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>You can learn all there is to know about their ways in a month, and yet after a hundred years they can still surprise you.</li>
+            <li>It is the small everyday deeds of ordinary folk that keep the darkness at bay. Small acts of kindness and love.</li>
+            <li>Life in the wide world goes on much as it has this past Age, full of its own comings and goings, scarcely aware of the existence of Hobbits, for which I am very thankful.</li>
+        </random>
+    </template>
+</category>
+
+<category>
     <pattern> SAURON </pattern>
     <template>
         <!-- We can use the random tag to define several templates(answers) to a pattern -->
         <random>
             <!-- We have to add all templates to in li(list) tag when using random -->
             <li>There is only one Lord of the Rings. And he does not share power!</li>
+            <li>We've been blind. And in our blindness, the enemy has returned</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> MOUNT DOOM </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>Far to the east, over ranges and rivers lies a single solitary peak.</li>
         </random>
     </template>
 </category>
@@ -125,6 +150,38 @@
             <li>Only a small part is played in great deeds by any hero.</li>
             <li>All your long years we have been friends.</li>
             <li>Far, far below the deepest delvings of the dwarves, the world is gnawed by nameless things.</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> GOLLUM </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>My heart tells me that Gollum has some part to play, for good or ill, before this is over. The pity of Bilbo may rule the fate of many.</li>
+            <li>Many that live deserve death. And some that die deserve life. Can you give it to them? Then do not be too eager to deal out death in judgement. For even the very wise cannot see all ends. I have not much hope that Gollum can be cured before he dies, but there is a chance of it</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern> SMEAGOL </pattern>
+    <template>
+        <srai>GOLLUM</srai>
+    </template>
+</category>
+
+<category>
+    <pattern> EAGLES </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>All your long years we have been friends. Trust me as you once did, let it go.</li>
+            <li>Be silent! Keep your forked tongue behind your teeth! I have not passed through fire and death to bandy crooked words with a witless worm.</li>
+            <li>Others may contest your will, when it is turned to madness and evil.</li>
         </random>
     </template>
 </category>
