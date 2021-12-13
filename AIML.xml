@@ -1,6 +1,17 @@
 <aiml version="1.0">
 
 <category>
+    <pattern> * </pattern>
+    <template>
+        <!-- We can use the random tag to define several templates(answers) to a pattern -->
+        <random>
+            <!-- We have to add all templates to in li(list) tag when using random -->
+            <li>The wise speak only of what they know.</li>
+        </random>
+    </template>
+</category>
+
+<category>
     <pattern> HELLO </pattern>
     <template>
         <!-- We can use the random tag to define several templates(answers) to a pattern -->
@@ -33,7 +44,6 @@
     </template>
 </category>
 
-
 <category>
     <pattern> HI </pattern>
     <template>
@@ -47,7 +57,6 @@
         <srai>HELLO</srai>
     </template>
 </category>
-
 
 
 <category>
