@@ -15,12 +15,12 @@ import sys
 
 if __name__ == '__main__':
     #Check that a filename is specified
-    if len(sys.argv) < 2:
-        print('ERROR: No file specified')
-        print(f'Usage: python3 {sys.argv[0]} [name of aiml file]')
-        exit(1)
+    # if len(sys.argv) < 2:
+    #     print('ERROR: No file specified')
+    #     print(f'Usage: python3 {sys.argv[0]} [name of aiml file]')
+    #     exit(1)
     #Extract file name from command line argument
-    filename = sys.argv[1]
+    filename = 'AIML.xml'
 
     #The aiml library has bad error checking so lets check that 
     #the file actually exists
