@@ -76,6 +76,14 @@
 </category>
 
 <category>
+    <pattern> * BILBO * </pattern> <template> <srai>BILBO</srai> </template>
+</category>
+
+<category>
+    <pattern> * BILBO </pattern> <template> <srai>BILBO</srai> </template>
+</category>
+
+<category>
     <pattern> HUMAN </pattern>
     <template>
         <!-- We can use the random tag to define several templates(answers) to a pattern -->
