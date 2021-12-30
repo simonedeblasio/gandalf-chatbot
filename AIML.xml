@@ -185,7 +185,7 @@
 </category>
 
 <category>
-    <pattern> LEOGOLAS </pattern>
+    <pattern> LEGOLAS </pattern>
     <template>
         <!-- We can use the random tag to define several templates(answers) to a pattern -->
         <random>
@@ -198,11 +198,11 @@
 </category>
 
 <category>
-    <pattern> * LEOGOLAS * </pattern> <template> <srai>LEOGOLAS</srai> </template>
+    <pattern> * LEGOLAS * </pattern> <template> <srai>LEGOLAS</srai> </template>
 </category>
 
 <category>
-    <pattern> * LEOGOLAS </pattern> <template> <srai>LEOGOLAS</srai> </template>
+    <pattern> * LEGOLAS </pattern> <template> <srai>LEGOLAS</srai> </template>
 </category>
 
 <category>
