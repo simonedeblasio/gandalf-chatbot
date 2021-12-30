@@ -95,6 +95,14 @@
 </category>
 
 <category>
+    <pattern> * HUMAN * </pattern> <template> <srai>HUMAN</srai> </template>
+</category>
+
+<category>
+    <pattern> * HUMAN </pattern> <template> <srai>HUMAN</srai> </template>
+</category>
+
+<category>
     <pattern> HOBBIT </pattern>
     <template>
         <!-- We can use the random tag to define several templates(answers) to a pattern -->
@@ -105,6 +113,14 @@
             <li>Life in the wide world goes on much as it has this past Age, full of its own comings and goings, scarcely aware of the existence of Hobbits, for which I am very thankful.</li>
         </random>
     </template>
+</category>
+
+<category>
+    <pattern> * HOBBIT * </pattern> <template> <srai>HOBBIT</srai> </template>
+</category>
+
+<category>
+    <pattern> * HOBBIT </pattern> <template> <srai>HOBBIT</srai> </template>
 </category>
 
 <category>
@@ -120,6 +136,14 @@
 </category>
 
 <category>
+    <pattern> * SAURON * </pattern> <template> <srai>SAURON</srai> </template>
+</category>
+
+<category>
+    <pattern> * SAURON </pattern> <template> <srai>SAURON</srai> </template>
+</category>
+
+<category>
     <pattern> MOUNT DOOM </pattern>
     <template>
         <!-- We can use the random tag to define several templates(answers) to a pattern -->
@@ -128,6 +152,14 @@
             <li>Far to the east, over ranges and rivers lies a single solitary peak.</li>
         </random>
     </template>
+</category>
+
+<category>
+    <pattern> * MOUNT DOOM * </pattern> <template> <srai>MOUNT DOOM</srai> </template>
+</category>
+
+<category>
+    <pattern> * MOUNT DOOM </pattern> <template> <srai>MOUNT DOOM</srai> </template>
 </category>
 
 <category>
@@ -145,6 +177,14 @@
 </category>
 
 <category>
+    <pattern> * SARUMAN * </pattern> <template> <srai>SARUMAN</srai> </template>
+</category>
+
+<category>
+    <pattern> * SARUMAN </pattern> <template> <srai>SARUMAN</srai> </template>
+</category>
+
+<category>
     <pattern> LEOGOLAS </pattern>
     <template>
         <!-- We can use the random tag to define several templates(answers) to a pattern -->
@@ -155,6 +195,14 @@
             <li>All your long years we have been friends.</li>
         </random>
     </template>
+</category>
+
+<category>
+    <pattern> * LEOGOLAS * </pattern> <template> <srai>LEOGOLAS</srai> </template>
+</category>
+
+<category>
+    <pattern> * LEOGOLAS </pattern> <template> <srai>LEOGOLAS</srai> </template>
 </category>
 
 <category>
@@ -172,6 +220,14 @@
 </category>
 
 <category>
+    <pattern> * GIMLI * </pattern> <template> <srai>GIMLI</srai> </template>
+</category>
+
+<category>
+    <pattern> * GIMLI </pattern> <template> <srai>GIMLI</srai> </template>
+</category>
+
+<category>
     <pattern> GOLLUM </pattern>
     <template>
         <!-- We can use the random tag to define several templates(answers) to a pattern -->
@@ -184,10 +240,26 @@
 </category>
 
 <category>
+    <pattern> * GOLLUM * </pattern> <template> <srai>GOLLUM</srai> </template>
+</category>
+
+<category>
+    <pattern> * GOLLUM </pattern> <template> <srai>GOLLUM</srai> </template>
+</category>
+
+<category>
     <pattern> SMEAGOL </pattern>
     <template>
         <srai>GOLLUM</srai>
     </template>
+</category>
+
+<category>
+    <pattern> * SMEAGOL * </pattern> <template> <srai>SMEAGOL</srai> </template>
+</category>
+
+<category>
+    <pattern> * SMEAGOL </pattern> <template> <srai>SMEAGOL</srai> </template>
 </category>
 
 <category>
@@ -204,6 +276,14 @@
 </category>
 
 <category>
+    <pattern> * EAGLES * </pattern> <template> <srai>EAGLES</srai> </template>
+</category>
+
+<category>
+    <pattern> * EAGLES </pattern> <template> <srai>EAGLES</srai> </template>
+</category>
+
+<category>
     <pattern> DO YOU </pattern>
     <template>
         <!-- We can use the random tag to define several templates(answers) to a pattern -->
@@ -216,6 +296,17 @@
     </template>
 </category>
 
+<category>
+    <pattern> * DO YOU * </pattern> <template> <srai>DO YOU</srai> </template>
+</category>
+
+<category>
+    <pattern> * DO YOU </pattern> <template> <srai>DO YOU</srai> </template>
+</category>
+
+<category>
+    <pattern> * DO YOU * </pattern> <template> <srai>DO YOU</srai> </template>
+</category>
 
 <category>
     <pattern> LATE </pattern>
@@ -229,6 +320,14 @@
 </category>
 
 <category>
+    <pattern> * LATE * </pattern> <template> <srai>LATE</srai> </template>
+</category>
+
+<category>
+    <pattern> * LATE </pattern> <template> <srai>LATE</srai> </template>
+</category>
+
+<category>
     <pattern> EARLY </pattern>
     <template>
         <srai>LATE</srai>
@@ -236,10 +335,26 @@
 </category>
 
 <category>
+    <pattern> * EARLY * </pattern> <template> <srai>EARLY</srai> </template>
+</category>
+
+<category>
+    <pattern> * EARLY </pattern> <template> <srai>EARLY</srai> </template>
+</category>
+
+<category>
     <pattern> ARRIVE </pattern>
     <template>
         <srai>LATE</srai>
     </template>
+</category>
+
+<category>
+    <pattern> * ARRIVE * </pattern> <template> <srai>ARRIVE</srai> </template>
+</category>
+
+<category>
+    <pattern> * ARRIVE </pattern> <template> <srai>ARRIVE</srai> </template>
 </category>
 
 <category>
@@ -256,6 +371,13 @@
     </template>
 </category>
 
+<category>
+    <pattern> * RING * </pattern> <template> <srai>RING</srai> </template>
+</category>
+
+<category>
+    <pattern> * RING </pattern> <template> <srai>RING</srai> </template>
+</category>
 
 <category>
     <pattern> SCARY </pattern>
@@ -269,6 +391,14 @@
             <li>It is not despair, for despair is only for those who see the end beyond all doubt. We do not.</li>
         </random>
     </template>
+</category>
+
+<category>
+    <pattern> * SCARY * </pattern> <template> <srai>SCARY</srai> </template>
+</category>
+
+<category>
+    <pattern> * SCARY </pattern> <template> <srai>SCARY</srai> </template>
 </category>
 
 <category>
@@ -287,50 +417,11 @@
 </category>
 
 <category>
-    <pattern> KTH </pattern>
-    <template>
-        <!-- We can use the random tag to define several templates(answers) to a pattern -->
-        <random>
-            <!-- We have to add all templates to in li(list) tag when using random -->
-            <li>Fly you fools</li>
-            <li>YOU SHALL NOT PASS</li>
-            <li>The burned hand teaches best. After that advice about fire goes to the heart. </li>
-            <li> Generous deeds should not be checked by cold counsel </li> 
-            <li> Do not take me for some conjuror of cheap tricks. I am not trying to rob you, I'm trying to help you. </li>
-            <li>It is not despair, for despair is only for those who see the end beyond all doubt. We do not.</li>
-            <li>You can learn all there is to know about their ways in a month, and yet after a hundred years they can still surprise you.</li>
-            <li>The world is not in your books and maps; it's out there. </li>
-        </random>
-    </template>
+    <pattern> * BALROG * </pattern> <template> <srai>BALROG</srai> </template>
 </category>
 
 <category>
-    <pattern> SCHOOL </pattern>
-    <template>
-        <srai>KTH</srai>
-    </template>
+    <pattern> * BALROG </pattern> <template> <srai>BALROG</srai> </template>
 </category>
-
-<category>
-    <pattern> TEACH </pattern>
-    <template>
-        <srai>KTH</srai>
-    </template>
-</category>
-
-<category>
-    <pattern> LAB </pattern>
-    <template>
-        <srai>KTH</srai>
-    </template>
-</category>
-
-<category>
-    <pattern> PROJECT </pattern>
-    <template>
-        <srai>KTH</srai>
-    </template>
-</category>
-
 
 </aiml>
