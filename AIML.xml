@@ -18,7 +18,6 @@
         <random>
             <!-- We have to add all templates to in li(list) tag when using random -->
             <li>Hello</li>
-            <li>Greetings</li>
             <li>A wizard is never late, Frodo Baggins. Nor is he early. He arrives precisely when he means to.</li>
             <li>I am looking for someone to share in an adventure that I am arranging, and it's very difficult to find anyone.</li>
             <li>I am Gandalf, and Gandalf means me.</li>
@@ -380,7 +379,7 @@
 </category>
 
 <category>
-    <pattern> SCARY </pattern>
+    <pattern> HELP </pattern>
     <template>
         <!-- We can use the random tag to define several templates(answers) to a pattern -->
         <random>
@@ -394,11 +393,11 @@
 </category>
 
 <category>
-    <pattern> * SCARY * </pattern> <template> <srai>SCARY</srai> </template>
+    <pattern> * HELP * </pattern> <template> <srai>HELP</srai> </template>
 </category>
 
 <category>
-    <pattern> * SCARY </pattern> <template> <srai>SCARY</srai> </template>
+    <pattern> * HELP </pattern> <template> <srai>HELP</srai> </template>
 </category>
 
 <category>
